@@ -18,7 +18,7 @@ If you know of a plugin that isn't here, please either add it or open an issue.
 
 You can also simply add the dependency directly to `pawn.json` if you prefer.
 
-* `sampctl package install samp-incognito/samp-streamer-plugin`
+* `sampctl install samp-incognito/samp-streamer-plugin`
 
 ### 2. Add The `#include` Entry to `test.pwn`
 

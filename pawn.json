@@ -2,19 +2,22 @@
 	"user": "sampctl",
 	"repo": "plugin-build-tests",
 	"entry": "test.pwn",
-	"output": "test.amx",
+	"output": "gamemodes/test.amx",
 	"dependencies": [
-		"sampctl/samp-stdlib",
+		"openmultiplayer/omp-stdlib",
+		"pawn-lang/samp-stdlib@open.mp",
+		"pawn-lang/pawn-stdlib@open.mp",
 		"AmyrAhmady/samp-plugin-crashdetect",
 		"BigETI/pawn-memory",
-		"maddinat0r/sscanf",
+		"Y-Less/sscanf",
 		"samp-incognito/samp-streamer-plugin",
-		"IllidanS4/YSF",
-		"IllidanS4/PawnPlus",
+		"IS4Code/PawnPlus",
 		"Southclaws/pawn-uuid",
 		"Southclaws/pawn-fsutil",
-		"ziggi/rustext",
-		"Southclaws/samp-plugin-mapandreas",
-		"Southclaws/pawn-redis"
-	]
+		"Southclaws/pawn-redis",
+		"component://katursis/Pawn.CMD"
+	],
+	"runtime": {
+		"version": "openmp"
+	}
 }
